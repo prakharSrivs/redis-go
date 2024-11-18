@@ -100,26 +100,7 @@ The application listens on port `6379`. You can interact with it using:
 
 Redis-Go is built with Go's goroutines for handling multiple concurrent connections, ensuring high performance and responsiveness. Mutexes are used internally to maintain data integrity, preventing race conditions and ensuring thread-safe operations.
 
----
 
-## Future Improvements
-
-- Expand the supported command set to include more Redis-like features.
-- Add persistent storage options.
-- Implement advanced data structures (e.g., lists, sets, hashes).
-- Support clustering for horizontal scaling.
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
